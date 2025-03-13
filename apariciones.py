@@ -62,24 +62,20 @@ def contar_interacciones(texto, personajes, ventana=50):
 def guardar_interacciones(interacciones, output_file):
     with open(output_file, "w", newline="", encoding="utf-8") as file:
         writer = csv.writer(file)
-        writer.writerow(["Source", "Target", "Weight"])  # Encabezado para Gephi
+        writer.writerow(["Source", "Target", "Weight", "Type"])  # Encabezado para Gephi
 
         sorted_interacciones = sorted(interacciones.items(), key=lambda x: (x[0][0], x[0][1]))  # Orden alfabético
 
         for (p1, p2), peso in sorted_interacciones:
-            writer.writerow([p1, p2, int(peso)])
+            if peso == 0:
+                peso = 1  # Peso mínimo para evitar errores en Gephi
+            writer.writerow([p1, p2, int(peso), "Undirected"])
 
 
 
-txt_path = "Libro.txt"
+txt_path = "ElRetornoDelRey.txt"
 texto = leer_texto(txt_path)
 apariciones = contar_apariciones(texto, nombres)
-print(apariciones)
-print()
-
-# Apariciones en la comunidad del anillo
-apariciones_comunidad_del_anillo = {k: v for k, v in apariciones.items() if v > 0}
-print(apariciones_comunidad_del_anillo)
 
 # Interacciones en la comunidad del anillo
 interacciones = contar_interacciones(texto, nombres)
@@ -100,10 +96,6 @@ for (p1, p2), peso in interacciones.items():
         else:
             interacciones_agrupadas[(etiqueta1, etiqueta2)] = peso
 
-print()
-print(interacciones)
-print()
-print(interacciones_agrupadas)
 
 # Crear un diccionario para almacenar la suma de interacciones por etiqueta
 suma_interacciones_por_etiqueta = {}
@@ -126,14 +118,16 @@ df_combinado = df.groupby("Etiqueta", as_index=False).agg({
 
 df_combinado = df_combinado[df_combinado["Apariciones"] > 0]  # Filtrar personajes con apariciones
 df_combinado = df_combinado.sort_values("Apariciones", ascending=False)  # Ordenar por apariciones
-df_combinado = df_combinado.drop(columns=["Etiqueta"]) # Eliminar columna etiqueta
-df_combinado["Interacciones"] = df_combinado["Nombre"].map(suma_interacciones_por_etiqueta).fillna(0)
+df_combinado = df_combinado.drop(columns=["Nombre"]) # Eliminar columna etiqueta
+df_combinado["Interacciones"] = df_combinado["Etiqueta"].map(suma_interacciones_por_etiqueta).fillna(0)
+df_combinado = df_combinado.rename(columns={"Etiqueta": "Label"})
+df_combinado["Id"] = df_combinado["Label"]
 df_combinado["Interacciones"] = df_combinado["Interacciones"].astype(int)
 
 # Guardar el nuevo archivo CSV con los personajes de la comunidad del anillo
-csv_output_path = "Personajes/personajes_final.csv"
+csv_output_path = "Personajes/personajes_retorno_rey.csv"
 df_combinado.to_csv(csv_output_path, index=False)
 
 # Guardar las interacciones en un archivo CSV compatible con Gephi
-output_file = "Interacciones/interacciones_final.csv"
+output_file = "Interacciones/interacciones_retorno_rey.csv"
 guardar_interacciones(interacciones_agrupadas, output_file)
