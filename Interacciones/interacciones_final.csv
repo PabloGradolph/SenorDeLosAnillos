@@ -42,8 +42,8 @@ Aragorn,Merry,142,Undirected
 Aragorn,Nimrodel,1,Undirected
 Aragorn,Pippin,142,Undirected
 Aragorn,Roheryn,3,Undirected
-Aragorn,Sam,187,Undirected
-Aragorn,Saruman,48,Undirected
+Aragorn,Sam,186,Undirected
+Aragorn,Saruman,49,Undirected
 Aragorn,Thranduil,3,Undirected
 Aragorn,Théoden,56,Undirected
 Aragorn,Uglúk,2,Undirected
@@ -94,7 +94,9 @@ Bard,Glóin,1,Undirected
 Beregond,Denethor,23,Undirected
 Beregond,Faramir,33,Undirected
 Beregond,Ioreth,1,Undirected
+Beren,Aragorn,1,Undirected
 Beren,Dior,1,Undirected
+Beren,Ella-Laraña,1,Undirected
 Beren,Merry,1,Undirected
 Beren,Pippin,1,Undirected
 Beren,Sam,5,Undirected
@@ -118,12 +120,11 @@ Bilbo,Elrohir,2,Undirected
 Bilbo,Elrond,45,Undirected
 Bilbo,Folco,2,Undirected
 Bilbo,Fredegar,2,Undirected
-Bilbo,Frodo,382,Undirected
+Bilbo,Frodo,383,Undirected
 Bilbo,Galadriel,2,Undirected
 Bilbo,Gandalf,139,Undirected
 Bilbo,Gildor,12,Undirected
 Bilbo,Gimli,3,Undirected
-Bilbo,Glóin,7,Undirected
 Bilbo,Hamfast,3,Undirected
 Bilbo,Isildur,1,Undirected
 Bilbo,Legolas,2,Undirected
@@ -259,6 +260,15 @@ Elanor,Pippin,1,Undirected
 Elfhelm,Grimbold,2,Undirected
 Elfhelm,Hirgon,1,Undirected
 Elfhelm,Merry,8,Undirected
+Ella-Laraña,Aragorn,1,Undirected
+Ella-Laraña,Frodo,8,Undirected
+Ella-Laraña,Gorbag,3,Undirected
+Ella-Laraña,Lagduf,1,Undirected
+Ella-Laraña,Merry,1,Undirected
+Ella-Laraña,Muzgash,1,Undirected
+Ella-Laraña,Sam,31,Undirected
+Ella-Laraña,Sauron,6,Undirected
+Ella-Laraña,Ungoliant,2,Undirected
 Elladan,Amroth,1,Undirected
 Elladan,Celeborn,1,Undirected
 Elladan,Elrohir,7,Undirected
@@ -279,7 +289,7 @@ Elrond,Amroth,4,Undirected
 Elrond,Beren,2,Undirected
 Elrond,Boromir,24,Undirected
 Elrond,Brand,2,Undirected
-Elrond,Dior,2,Undirected
+Elrond,Dior,3,Undirected
 Elrond,Drogo,2,Undirected
 Elrond,Erestor,4,Undirected
 Elrond,Galadriel,17,Undirected
@@ -337,7 +347,7 @@ Fredegar,Lobelia,2,Undirected
 Fredegar,Maggot,1,Undirected
 Fredegar,Merry,12,Undirected
 Fredegar,Pippin,11,Undirected
-Frodo,Aragorn,402,Undirected
+Frodo,Aragorn,403,Undirected
 Frodo,Arod,1,Undirected
 Frodo,Arwen,19,Undirected
 Frodo,Beregond,1,Undirected
@@ -376,9 +386,10 @@ Frodo,Rúmil,2,Undirected
 Frodo,Shagrat,11,Undirected
 Frodo,Sombragris,3,Undirected
 Frodo,Ted,3,Undirected
-Frodo,Thorin,4,Undirected
+Frodo,Thorin,5,Undirected
 Frodo,Uglúk,1,Undirected
 Galadriel,Aragorn,14,Undirected
+Galadriel,Ella-Laraña,1,Undirected
 Galadriel,Faramir,3,Undirected
 Galadriel,Gandalf,22,Undirected
 Galadriel,Gimli,16,Undirected
@@ -389,7 +400,7 @@ Galadriel,Théoden,1,Undirected
 Galdor,Isildur,1,Undirected
 Galdor,Legolas,1,Undirected
 Galdor,Thranduil,1,Undirected
-Gamelin,Aragorn,7,Undirected
+Gamelin,Aragorn,8,Undirected
 Gandalf,Arod,6,Undirected
 Gandalf,Beregond,45,Undirected
 Gandalf,Boromir,81,Undirected
@@ -424,7 +435,7 @@ Gandalf,Thranduil,1,Undirected
 Gandalf,Théoden,113,Undirected
 Gandalf,Théodred,1,Undirected
 Gandalf,Uglúk,2,Undirected
-Ghân,Merry,3,Undirected
+Ghân,Merry,4,Undirected
 Gildor,Drogo,3,Undirected
 Gildor,Elrond,2,Undirected
 Gildor,Galadriel,1,Undirected
@@ -469,6 +480,7 @@ Glorfindel,Sauron,3,Undirected
 Glóin,Aragorn,15,Undirected
 Glóin,Arwen,1,Undirected
 Glóin,Balin,7,Undirected
+Glóin,Bilbo,8,Undirected
 Glóin,Bárbol,3,Undirected
 Glóin,Drogo,2,Undirected
 Glóin,Elladan,2,Undirected
@@ -492,6 +504,7 @@ Gollum,Bilbo,50,Undirected
 Gollum,Damrod,1,Undirected
 Gollum,Drogo,3,Undirected
 Gollum,Déagol,24,Undirected
+Gollum,Ella-Laraña,19,Undirected
 Gollum,Elrond,4,Undirected
 Gollum,Frodo,542,Undirected
 Gollum,Galdor,1,Undirected
@@ -563,6 +576,9 @@ Hirluin,Derufin,1,Undirected
 Hirluin,Duilin,1,Undirected
 Hirluin,Forlong,1,Undirected
 Hirluin,Imrahil,2,Undirected
+Hombre-Sauce,Frodo,6,Undirected
+Hombre-Sauce,Pippin,1,Undirected
+Hombre-Sauce,Sam,3,Undirected
 Háma,Gandalf,17,Undirected
 Háma,Gimli,1,Undirected
 Háma,Legolas,1,Undirected
@@ -616,7 +632,7 @@ Legolas,Boromir,34,Undirected
 Legolas,Dáin,2,Undirected
 Legolas,Elladan,6,Undirected
 Legolas,Elrohir,2,Undirected
-Legolas,Frodo,64,Undirected
+Legolas,Frodo,65,Undirected
 Legolas,Gamelin,4,Undirected
 Legolas,Gandalf,126,Undirected
 Legolas,Gimli,261,Undirected
@@ -629,6 +645,7 @@ Legolas,Imrahil,9,Undirected
 Legolas,Isildur,2,Undirected
 Legolas,Roheryn,2,Undirected
 Legolas,Sam,34,Undirected
+Legolas,Saruman,15,Undirected
 Legolas,Sombragris,11,Undirected
 Legolas,Thranduil,2,Undirected
 Lobelia,Frodo,25,Undirected
@@ -638,6 +655,7 @@ Lotho,Frodo,2,Undirected
 Lúthien,Aragorn,4,Undirected
 Lúthien,Beren,23,Undirected
 Lúthien,Dior,3,Undirected
+Lúthien,Ella-Laraña,1,Undirected
 Lúthien,Elrond,6,Undirected
 Lúthien,Gimli,1,Undirected
 Lúthien,Merry,1,Undirected
@@ -667,6 +685,7 @@ Merry,Gollum,2,Undirected
 Merry,Gordo,17,Undirected
 Merry,Hasufel,1,Undirected
 Merry,Hirgon,2,Undirected
+Merry,Hombre-Sauce,6,Undirected
 Merry,Imrahil,2,Undirected
 Merry,Legolas,47,Undirected
 Merry,Lobelia,7,Undirected
@@ -720,7 +739,7 @@ Pippin,Merry,309,Undirected
 Pippin,Paladin,6,Undirected
 Pippin,Sam,181,Undirected
 Pippin,Théoden,14,Undirected
-Pippin,TomBombadil,8,Undirected
+Pippin,TomBombadil,9,Undirected
 Pippin,Uglúk,44,Undirected
 Pippin,WillPieblanco,3,Undirected
 Prímula,Bilbo,2,Undirected
@@ -729,6 +748,7 @@ Radagast,Elladan,2,Undirected
 Radagast,Elrohir,2,Undirected
 Radagast,Elrond,2,Undirected
 Radagast,Gandalf,6,Undirected
+Radbug,Ella-Laraña,1,Undirected
 Radbug,Gorbag,1,Undirected
 Roheryn,Crinblanca,1,Undirected
 Roheryn,Halbarad,1,Undirected
@@ -749,7 +769,7 @@ Sam,Elanor,10,Undirected
 Sam,Elrond,36,Undirected
 Sam,Faramir,70,Undirected
 Sam,Fredegar,1,Undirected
-Sam,Frodo,1531,Undirected
+Sam,Frodo,1532,Undirected
 Sam,Galadriel,27,Undirected
 Sam,Gandalf,165,Undirected
 Sam,Gildor,12,Undirected
@@ -785,7 +805,6 @@ Saruman,Glóin,1,Undirected
 Saruman,Grishnákh,9,Undirected
 Saruman,Hasufel,1,Undirected
 Saruman,Isildur,4,Undirected
-Saruman,Legolas,14,Undirected
 Saruman,Lobelia,1,Undirected
 Saruman,Pippin,38,Undirected
 Saruman,Radagast,24,Undirected
@@ -811,12 +830,14 @@ Sauron,Isildur,26,Undirected
 Sauron,Legolas,7,Undirected
 Sauron,Merry,3,Undirected
 Sauron,Pippin,13,Undirected
-Sauron,Saruman,27,Undirected
+Sauron,Saruman,28,Undirected
 Sauron,Thingol,1,Undirected
 Sauron,Théoden,9,Undirected
+Shagrat,Ella-Laraña,7,Undirected
 Shagrat,Radbug,1,Undirected
 Shagrat,Snaga,6,Undirected
 Shagrat,Ufthak,1,Undirected
+Snaga,Ella-Laraña,2,Undirected
 Snaga,Frodo,1,Undirected
 Snaga,Gorbag,1,Undirected
 Snaga,Lagduf,1,Undirected
@@ -854,7 +875,7 @@ Théoden,Dúnhere,3,Undirected
 Théoden,Elfhelm,1,Undirected
 Théoden,Faramir,2,Undirected
 Théoden,Frodo,3,Undirected
-Théoden,Ghân,9,Undirected
+Théoden,Ghân,6,Undirected
 Théoden,Gimli,11,Undirected
 Théoden,Gléowine,1,Undirected
 Théoden,Glóin,1,Undirected
@@ -880,6 +901,7 @@ TomBombadil,Galadriel,1,Undirected
 TomBombadil,Gandalf,6,Undirected
 TomBombadil,Gildor,3,Undirected
 TomBombadil,Gordo,9,Undirected
+TomBombadil,Hombre-Sauce,15,Undirected
 TomBombadil,Lobelia,1,Undirected
 TomBombadil,Maggot,5,Undirected
 TomBombadil,Merry,27,Undirected
@@ -892,7 +914,7 @@ Uglúk,Lugdush,5,Undirected
 Uglúk,Merry,22,Undirected
 Uglúk,Saruman,13,Undirected
 Uglúk,Snaga,1,Undirected
-Ungoliant,Gollum,2,Undirected
+Ungoliant,Gollum,3,Undirected
 Walda,Théoden,2,Undirected
 Widfara,Dernhelm,1,Undirected
 Widfara,Merry,2,Undirected

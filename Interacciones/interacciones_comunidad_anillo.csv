@@ -20,7 +20,7 @@ Aragorn,Isildur,19,Undirected
 Aragorn,Merry,75,Undirected
 Aragorn,Nimrodel,1,Undirected
 Aragorn,Pippin,69,Undirected
-Aragorn,Sam,158,Undirected
+Aragorn,Sam,157,Undirected
 Aragorn,Saruman,2,Undirected
 Aragorn,Thranduil,3,Undirected
 Arwen,Boromir,1,Undirected
@@ -53,6 +53,7 @@ Barahir,Thingol,1,Undirected
 Bard,Brand,2,Undirected
 Bard,Frodo,2,Undirected
 Bard,Glóin,1,Undirected
+Beren,Aragorn,1,Undirected
 Beren,Dior,1,Undirected
 Beren,Merry,1,Undirected
 Beren,Pippin,1,Undirected
@@ -75,7 +76,6 @@ Bilbo,Frodo,327,Undirected
 Bilbo,Gandalf,126,Undirected
 Bilbo,Gildor,12,Undirected
 Bilbo,Gimli,3,Undirected
-Bilbo,Glóin,7,Undirected
 Bilbo,Hamfast,3,Undirected
 Bilbo,Isildur,1,Undirected
 Bilbo,Legolas,2,Undirected
@@ -148,7 +148,7 @@ Elrohir,Frodo,1,Undirected
 Elrond,Beren,2,Undirected
 Elrond,Boromir,23,Undirected
 Elrond,Brand,2,Undirected
-Elrond,Dior,2,Undirected
+Elrond,Dior,3,Undirected
 Elrond,Drogo,2,Undirected
 Elrond,Erestor,3,Undirected
 Elrond,Galadriel,3,Undirected
@@ -201,7 +201,7 @@ Frodo,Nob,12,Undirected
 Frodo,Odo,1,Undirected
 Frodo,Rúmil,2,Undirected
 Frodo,Ted,2,Undirected
-Frodo,Thorin,4,Undirected
+Frodo,Thorin,5,Undirected
 Galadriel,Aragorn,7,Undirected
 Galadriel,Gandalf,7,Undirected
 Galadriel,Gimli,10,Undirected
@@ -253,6 +253,7 @@ Glorfindel,Sauron,3,Undirected
 Glóin,Aragorn,4,Undirected
 Glóin,Arwen,1,Undirected
 Glóin,Balin,7,Undirected
+Glóin,Bilbo,8,Undirected
 Glóin,Drogo,2,Undirected
 Glóin,Elrond,10,Undirected
 Glóin,Erestor,1,Undirected
@@ -302,6 +303,9 @@ Haldir,Pippin,2,Undirected
 Haldir,Rúmil,3,Undirected
 Haldir,Sam,3,Undirected
 Haldir,Sauron,1,Undirected
+Hombre-Sauce,Frodo,6,Undirected
+Hombre-Sauce,Pippin,1,Undirected
+Hombre-Sauce,Sam,3,Undirected
 Húrin,Beren,1,Undirected
 Húrin,Elrond,1,Undirected
 Húrin,Sam,1,Undirected
@@ -346,6 +350,7 @@ Merry,Elrond,4,Undirected
 Merry,Gandalf,42,Undirected
 Merry,Gollum,1,Undirected
 Merry,Gordo,17,Undirected
+Merry,Hombre-Sauce,6,Undirected
 Merry,Legolas,18,Undirected
 Merry,Lobelia,7,Undirected
 Merry,Nob,9,Undirected
@@ -445,6 +450,7 @@ TomBombadil,Frodo,69,Undirected
 TomBombadil,Gandalf,5,Undirected
 TomBombadil,Gildor,3,Undirected
 TomBombadil,Gordo,9,Undirected
+TomBombadil,Hombre-Sauce,15,Undirected
 TomBombadil,Maggot,5,Undirected
 TomBombadil,Merry,26,Undirected
 TomBombadil,Sam,14,Undirected
