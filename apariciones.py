@@ -29,7 +29,7 @@ def contar_apariciones(texto, nombres):
     return apariciones
 
 
-def contar_interacciones(texto, personajes, ventana=20):
+def contar_interacciones(texto, personajes, ventana=50):
     palabras = re.findall(r"\b[\w'-]+\b", texto)  # Tokenizar el texto en palabras
     interacciones = {}
 
@@ -125,9 +125,9 @@ df_combinado["Id"] = df_combinado["Label"]
 df_combinado["Interacciones"] = df_combinado["Interacciones"].astype(int)
 
 # Guardar el nuevo archivo CSV con los personajes de la comunidad del anillo
-csv_output_path = "Personajes/personajes_final_20.csv"
+csv_output_path = "Personajes/personajes_final.csv"
 df_combinado.to_csv(csv_output_path, index=False)
 
 # Guardar las interacciones en un archivo CSV compatible con Gephi
-output_file = "Interacciones/interacciones_final_20.csv"
+output_file = "Interacciones/interacciones_final.csv"
 guardar_interacciones(interacciones_agrupadas, output_file)
