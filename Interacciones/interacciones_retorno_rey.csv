@@ -1,5 +1,6 @@
 Source,Target,Weight,Type
 Amroth,Denethor,3,Undirected
+Amroth,Eowyn,3,Undirected
 Amroth,Faramir,16,Undirected
 Amroth,Gandalf,7,Undirected
 Amroth,Merry,1,Undirected
@@ -80,6 +81,7 @@ Celeborn,Elrond,3,Undirected
 Celeborn,Merry,1,Undirected
 Celeborn,Théoden,1,Undirected
 Crinblanca,Aragorn,1,Undirected
+Crinblanca,Eowyn,2,Undirected
 Crinblanca,Halbarad,1,Undirected
 Crinblanca,Merry,8,Undirected
 Crinblanca,Sauron,1,Undirected
@@ -95,6 +97,7 @@ Denethor,Sam,2,Undirected
 Denethor,Saruman,1,Undirected
 Denethor,Sauron,4,Undirected
 Dernhelm,Elfhelm,10,Undirected
+Dernhelm,Eowyn,4,Undirected
 Dernhelm,Grimbold,2,Undirected
 Dernhelm,Sauron,1,Undirected
 Dernhelm,SeñordelosNazgûl,1,Undirected
@@ -154,6 +157,17 @@ Elrond,Lúthien,1,Undirected
 Elrond,Merry,8,Undirected
 Elrond,Pippin,3,Undirected
 Elrond,Théoden,4,Undirected
+Eowyn,Aragorn,43,Undirected
+Eowyn,Denethor,1,Undirected
+Eowyn,Déorwine,1,Undirected
+Eowyn,Dúnhere,1,Undirected
+Eowyn,Elfhelm,1,Undirected
+Eowyn,Elrond,5,Undirected
+Eowyn,Gimli,4,Undirected
+Eowyn,Húrin,2,Undirected
+Eowyn,Imrahil,4,Undirected
+Eowyn,Legolas,2,Undirected
+Eowyn,Merry,50,Undirected
 Erestor,Celeborn,1,Undirected
 Erestor,Elrond,1,Undirected
 Erestor,Galadriel,1,Undirected
@@ -161,6 +175,7 @@ Faramir,Aragorn,33,Undirected
 Faramir,Arwen,1,Undirected
 Faramir,Bergil,2,Undirected
 Faramir,Elfhelm,1,Undirected
+Faramir,Eowyn,50,Undirected
 Faramir,Frodo,9,Undirected
 Faramir,Gandalf,83,Undirected
 Faramir,Ioreth,9,Undirected
@@ -219,6 +234,7 @@ Gandalf,Celeborn,1,Undirected
 Gandalf,Dúnhere,3,Undirected
 Gandalf,Elrohir,1,Undirected
 Gandalf,Elrond,12,Undirected
+Gandalf,Eowyn,13,Undirected
 Gandalf,Frodo,63,Undirected
 Gandalf,Galadriel,6,Undirected
 Gandalf,Gollum,4,Undirected
@@ -379,6 +395,7 @@ Pippin,Bilbo,3,Undirected
 Pippin,Boromir,14,Undirected
 Pippin,Celeborn,2,Undirected
 Pippin,Denethor,91,Undirected
+Pippin,Eowyn,4,Undirected
 Pippin,Faramir,57,Undirected
 Pippin,Frodo,54,Undirected
 Pippin,Galadriel,3,Undirected
@@ -431,6 +448,7 @@ Sauron,Boromir,1,Undirected
 Sauron,Dúnhere,2,Undirected
 Sauron,Elrohir,2,Undirected
 Sauron,Elrond,2,Undirected
+Sauron,Eowyn,3,Undirected
 Sauron,Frodo,11,Undirected
 Sauron,Halbarad,1,Undirected
 Sauron,Isildur,10,Undirected
@@ -464,6 +482,7 @@ Sombragris,Sauron,2,Undirected
 Sombragris,Théoden,2,Undirected
 Stybba,Aragorn,2,Undirected
 Stybba,Elrond,1,Undirected
+Stybba,Eowyn,2,Undirected
 Stybba,Halbarad,1,Undirected
 Ted,Frodo,1,Undirected
 Théoden,Boromir,3,Undirected
@@ -472,6 +491,7 @@ Théoden,Denethor,8,Undirected
 Théoden,Dernhelm,2,Undirected
 Théoden,Dúnhere,3,Undirected
 Théoden,Elfhelm,1,Undirected
+Théoden,Eowyn,24,Undirected
 Théoden,Faramir,2,Undirected
 Théoden,Frodo,3,Undirected
 Théoden,Ghân,6,Undirected
@@ -491,6 +511,7 @@ Théoden,Stybba,2,Undirected
 TomBombadil,Lobelia,1,Undirected
 TomBombadil,Merry,1,Undirected
 TomBombadil,Rosita,1,Undirected
+Walda,Eowyn,1,Undirected
 Walda,Théoden,2,Undirected
 Widfara,Dernhelm,1,Undirected
 Widfara,Merry,2,Undirected

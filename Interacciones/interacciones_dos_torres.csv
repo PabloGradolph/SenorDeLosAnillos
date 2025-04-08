@@ -6,6 +6,7 @@ Aragorn,Bilbo,2,Undirected
 Aragorn,Bárbol,10,Undirected
 Aragorn,Denethor,9,Undirected
 Aragorn,Elrond,2,Undirected
+Aragorn,Eowyn,12,Undirected
 Aragorn,Frodo,36,Undirected
 Aragorn,Galadriel,3,Undirected
 Aragorn,Gandalf,108,Undirected
@@ -93,6 +94,10 @@ Elrond,Gollum,1,Undirected
 Elrond,Legolas,1,Undirected
 Elrond,Pippin,1,Undirected
 Elrond,TomBombadil,1,Undirected
+Eowyn,Gimli,1,Undirected
+Eowyn,Legolas,1,Undirected
+Eowyn,Saruman,2,Undirected
+Eowyn,Théoden,10,Undirected
 Erkenbrand,Aragorn,3,Undirected
 Erkenbrand,Gamelin,2,Undirected
 Erkenbrand,Gandalf,11,Undirected
@@ -135,6 +140,7 @@ Gandalf,Balrog,4,Undirected
 Gandalf,Bregalad,3,Undirected
 Gandalf,Bárbol,70,Undirected
 Gandalf,Drogo,1,Undirected
+Gandalf,Eowyn,6,Undirected
 Gandalf,Faramir,24,Undirected
 Gandalf,Galadriel,9,Undirected
 Gandalf,Gimli,71,Undirected
@@ -194,6 +200,7 @@ Hamfast,Galadriel,1,Undirected
 Hasufel,Arod,7,Undirected
 Hasufel,Sombragris,2,Undirected
 Hasufel,Théoden,2,Undirected
+Háma,Eowyn,3,Undirected
 Háma,Gandalf,17,Undirected
 Háma,Gimli,1,Undirected
 Háma,Legolas,1,Undirected
