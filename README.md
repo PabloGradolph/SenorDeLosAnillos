@@ -42,6 +42,14 @@ El objetivo de este proyecto es construir una red de interacciones entre los per
 │   ├── Prologo.pdf # Pdf con el prólogo del libro.
 │   ├── El_Senor_de_los_Anillos.pdf # Pdf original con todo el libro.
 │
+├── 📁 Redes
+│   ├── Fotos con ejemplos de visualizaciones de redes obtenidas.
+│
+├── 📁 Entrega
+│   ├── Imagenes: Todas las imagenes utilizadas para la entrega.
+│   ├── Excel: Medidas obtenidas tras el análisis.
+│   ├── PDF: Memoria de la entrega final.
+│
 ├── apariciones.py  # Código para extracción y análisis de apariciones e interacciones.
 ├── extracción_texto.py  # Código para extracción de texto a partir de pdfs.
 ├── README.md  # Documentación del proyecto
@@ -85,6 +93,57 @@ Esto generará los archivos CSV de personajes e interacciones listos para su an�
 - **Personajes con más apariciones** 📊
 - **Personajes con más conexiones** 🔗
 - **Comunidades dentro del mundo de Tolkien** 🏰
+
+## 📷 Visualizaciones destacadas
+
+A continuación se presentan algunas de las visualizaciones más representativas generadas en Gephi:
+
+### 🔝 Personajes más importantes según medidas de centralidad
+
+![Centralidad: Intermediación y Vector Propio](Entrega/Imagenes/IntermediacionVectorPropio.png)
+
+> El tamaño del nodo es proporcional a la intermediación y el color a la centralidad de vector propio.
+
+---
+
+### 🎯 Personajes con mayor grado y cercanía
+
+![Grado y Cercanía](Entrega/Imagenes/GradoCercania.png)
+
+> El tamaño indica el número de conexiones (grado) y el color representa la cercanía estructural en la red.
+
+---
+
+### 🌐 Red completa por razas
+
+![Red por razas](Entrega/Imagenes/Completa_razas_final.png)
+
+> Visualización de toda la red con colores según raza y tamaño proporcional al grado.
+
+---
+
+### 📘 Red de *Las Dos Torres*
+
+![Las Dos Torres](Entrega/Imagenes/LasDosTorresRazas.png)
+
+> Visualización de la red de personajes del segundo libro, con mejor estructura modular.
+
+---
+
+### 🧑‍🤝‍🧑 Comunidades detectadas en *Las Dos Torres* (Lovaina)
+
+#### Comunidad de Frodo
+
+![Comunidad de Frodo](Entrega/Imagenes/Comunidad0.png)
+
+#### Comunidad de Gandalf
+
+![Comunidad de Gandalf](Entrega/Imagenes/Comunidad1.png)
+
+#### Comunidad de Aragorn
+
+![Comunidad de Aragorn](Entrega/Imagenes/Comunidad2.png)
+
 
 ## 🤝 Contribuciones
 
